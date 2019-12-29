@@ -12,8 +12,11 @@ class Dog
   end
 
   def self.print_all
-
+    @@all[n] = 0
+    @@all.each do |n|
+      puts n
   end
+
   def self.clear_all
     while @@all.size > 0
       @@all.pop
