@@ -20,8 +20,6 @@ class Dog
   end
 
   def self.clear_all
-    while @@all.size > 0
-      @@all.pop
-    end
+    @@all.clear
   end
 end
