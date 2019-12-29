@@ -12,7 +12,7 @@ class Dog
   end
 
   def self.print_all
-    @@all[n] = 0
+    
     @@all[n].each do |n|
       puts n
     end
