@@ -13,7 +13,7 @@ class Dog
 
   def self.print_all
     @@all[n] = 0
-    @@all.each do |n|
+    @@all[n].each do |n|
       puts n
     end
   end
